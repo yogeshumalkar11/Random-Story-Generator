@@ -1,7 +1,7 @@
 import streamlit as st
 from story import generate_story
 
-st.set_page_config(page_title='Bedtime Stories' , page_icon=None,
+st.set_page_config(page_title='Bedtime Stories', page_icon=None,
                    layout="wide", initial_sidebar_state="auto", menu_items=None)
 st.title("AI generated Bedtime Stories")
 st.sidebar.title("Customize Your Story")
