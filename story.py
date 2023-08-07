@@ -13,7 +13,7 @@ def generate_story(name, genre):
     # formatting the prompt
     story_prompt = PromptTemplate(
         input_variables=["name", "genre"],
-        template="Write a short story strictly within 300 words with {name} as the main character and {genre} as the genre of the story.",
+        template="Write a short story strictly within 300 words with {name} as the main character and {genre} as the genre of the story.The story should have a clear beginning, middle, and resolution. Focus on building tension and creating a satisfying conclusion.",
     )
 
     # generating the story chain with the prompt
